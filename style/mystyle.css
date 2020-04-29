@@ -1,0 +1,345 @@
+@font-face {font-family: "Segoe UI";
+src: url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.eot");
+src: url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.eot?#iefix")
+format("embedded-opentype"),
+url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.woff2")
+format("woff2"),
+url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.woff")
+format("woff"),
+url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.ttf") 
+format("truetype"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.svg#Segoe UI") 
+format("svg"); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+}
+
+
+.maincontainer {
+	display: flex;
+	flex-direction: row-reverse;
+	background-color: #e6e6e6;
+}
+
+.column1 {
+	width: 65%;
+	height: 100vh;
+
+}
+
+.column2 {
+	width: 35%;
+	height: 100vh;
+}
+
+.firstrow1 {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: baseline;
+}
+
+.firstrow1 > div {
+	width: 100%
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 5px 11px 5px 11px;
+}
+
+.secondrow1 {
+	display: flex;
+	flex-direction:row;
+	margin-left: 11px;
+	margin-top: 10px;
+}
+
+.secondrow1 > div {
+	width: 100%
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-right: 36px;
+	padding-bottom: 5px;
+
+}
+
+#rowborder {
+	border-bottom: solid 3px coral;
+}
+
+.thirdrow1 {
+display: flex;
+text-align: right;
+margin-left:10px;
+margin-top: 25px;
+}
+
+.firstrow2 {
+	display:flex;
+	flex-direction:row;
+	margin-left:12px;
+	margin-top: 7px;
+	font-size: 12px;
+}
+
+.secondrow2 {
+	display:flex;
+	flex-direction:row;
+}
+
+.secondrow2 > div {
+	width: 100%
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 10px;
+	padding: 11px 10px;
+
+}
+
+.hov:hover {
+	background-color:#d0d0d0;
+}
+
+.cancel:hover {
+	background-color: rgb(233, 1, 1);
+	color:white;
+}
+
+.standard {
+	font-weight: 34px;
+	font-size: 16px;
+}
+
+.display {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100%
+}
+
+.display > div {
+	font-size: 40px;
+	height: 22vh;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 5px;
+	text-align: right;
+}
+
+.thirdrow2 {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 7px;
+	width: 100%;
+}
+
+.thirdrow2 > div {
+	text-align: center;
+	font-size: 15px;
+	flex-wrap: wrap;
+	width: 12.5%;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+
+.temrow1 {
+	display: flex;
+	flex-flow: row-reverse;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.temrow11 {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.temrow11 > div {
+	width: 100%
+
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 5px 11px 5px 11px;
+}
+
+.cal {
+	margin-left:12px;
+	margin-top: 7px;
+	font-size: 12px;
+}
+
+.temrow2 {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.temrow22 {
+	display: flex;
+	flex-direction: row;
+}
+
+.temrow22  > div {
+	width: 100%
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 2px;
+	padding: 11px 10px;
+}
+
+.tempbtn12 {
+	margin-right: 10px;
+	margin-top: 13px;
+}
+
+.fontcolor {
+	color: #bfbfbf;
+}
+
+.btn {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100%;
+	background-color:#e6e6e6;
+}
+
+.btn > div {
+	flex-wrap: wrap; 
+	justify-content: center;
+	align-items: center;
+	width: 25%;
+	margin:1px;
+	height: 10vh;
+}
+
+.btn >div:hover {
+	background-color: #d5d4d4;
+}
+.btncolor {
+	background-color: #f0f0f0;
+	font-size: 22px;
+}
+
+.btncolor1 {
+	background-color: #fafafa;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.btncolor2 {
+	background-color: #f0f0f0;
+	font-size: 30px;}
+
+.hiddenbtn {
+	display: flex;
+	flex-direction: row-reverse;
+	background-color: #e6e6e6;
+
+}
+
+.hiddenbtn > div {
+	flex-wrap: wrap; 
+	text-align: center;
+	width: 100%;
+	height: 12.3vh;
+	margin:1px;
+}
+
+
+@media screen and (min-width:900px) {
+    .col-l-1 {width: 8.33%;}
+	.col-l-2 {width: 16.66%;}
+	.col-ll-3 {width: 25%;}
+	.col-ll-4 {width: 33.33%;}
+	.col-l-5 {width: 41.66%;}
+	.col-l-6 {width: 50%;}
+	.col-l-7 {width: 58.33%;}
+	.col-l-8 {width: 66.66%;}
+	.col-l-9 {width: 75%;}
+	.col-l-10 {width: 83.33%;}
+	.col-l-11 {width: 91.66%;}
+	.col-l-12 {width: 100%;}
+
+   .hidden{
+		display: none;
+	}
+	div.temrow1{
+		display: none;
+	}
+	div.temrow2 {
+		display: none;
+	}
+
+	/*.display, div.display {
+		display: none;
+	} */
+	.newM {
+		display:none;
+	}
+	.thirdrow2 > div {
+		width: 8%;
+	}
+}
+
+@media screen and (min-width: 501px) and (max-width: 899px) {
+
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+
+	div.temrow1{
+		display: none;
+	}
+	div.temrow2 {
+		display: none;
+	}
+
+	.hidden2 {
+		display: none;
+	}
+
+	/*
+	.displayhidden, div.displayhidden {
+		display: none;
+	} */
+
+	.newM {
+		display:none;
+	}
+
+}
+
+@media screen and (max-width:500px) {
+	
+	[class*="col-"] {
+		width:100%;
+}
+	.column2, .column2>div {
+		display: none;
+	}
+	div.firstrow2, div.secondrow2 {
+		display: none;
+	}
+	.hidden2{
+		display: none;
+	}
+	
+	/*.displayhidden, div.displayhidden {
+		display: none;
+	}
+	*/
+}
+
