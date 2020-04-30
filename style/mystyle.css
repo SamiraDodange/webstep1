@@ -17,6 +17,7 @@ format("svg");
     border: 0;
     box-sizing: border-box;
     font-family: "Segoe UI";
+    background-color: #e6e6e6;
 }
 
 
@@ -119,7 +120,7 @@ margin-top: 25px;
 
 .display > div {
 	font-size: 40px;
-	height: 22vh;
+	height: 24vh;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	padding-right: 5px;
@@ -241,26 +242,22 @@ margin-top: 25px;
 	flex-wrap: wrap; 
 	text-align: center;
 	width: 100%;
-	height: 12.3vh;
+	height: 12.25vh;
 	margin:1px;
 }
 
 
 @media screen and (min-width:900px) {
-    .col-l-1 {width: 8.33%;}
-	.col-l-2 {width: 16.66%;}
-	.col-ll-3 {width: 25%;}
-	.col-ll-4 {width: 33.33%;}
-	.col-l-5 {width: 41.66%;}
-	.col-l-6 {width: 50%;}
-	.col-l-7 {width: 58.33%;}
-	.col-l-8 {width: 66.66%;}
-	.col-l-9 {width: 75%;}
-	.col-l-10 {width: 83.33%;}
-	.col-l-11 {width: 91.66%;}
-	.col-l-12 {width: 100%;}
 
-   .hidden{
+	.maxcolum1 {
+		width: 80%;
+	}
+
+	.maxcolum2 {
+		width: 20%;
+	}
+
+   .hidden {
 		display: none;
 	}
 	div.temrow1{
@@ -270,9 +267,6 @@ margin-top: 25px;
 		display: none;
 	}
 
-	/*.display, div.display {
-		display: none;
-	} */
 	.newM {
 		display:none;
 	}
@@ -307,11 +301,6 @@ margin-top: 25px;
 		display: none;
 	}
 
-	/*
-	.displayhidden, div.displayhidden {
-		display: none;
-	} */
-
 	.newM {
 		display:none;
 	}
@@ -332,10 +321,5 @@ margin-top: 25px;
 	.hidden2{
 		display: none;
 	}
-	
-	/*.displayhidden, div.displayhidden {
-		display: none;
-	}
-	*/
 }
 
