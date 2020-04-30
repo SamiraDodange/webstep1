@@ -28,13 +28,11 @@ format("svg");
 
 .column1 {
 	width: 65%;
-	height: 100vh;
 
 }
 
 .column2 {
 	width: 35%;
-	height: 100vh;
 }
 
 .firstrow1 {
@@ -149,7 +147,6 @@ margin-top: 25px;
 	display: flex;
 	flex-flow: row-reverse;
 	justify-content: space-between;
-	height: 100%;
 }
 
 .temrow11 {
@@ -175,7 +172,6 @@ margin-top: 25px;
 	display: flex;
 	flex-flow: row;
 	justify-content: space-between;
-	height: 100%;
 }
 
 .temrow22 {
