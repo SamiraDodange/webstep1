@@ -10,7 +10,6 @@ body{
        background-color: #e6e6e6;
        height: 100%;
        width: 100%;
-       min-height: 70vh;
    }
 
 .maincontainer {
@@ -243,7 +242,7 @@ margin-top: 25px;
 
 }
 
-@media screen and (min-width:900px) {
+@media screen and (min-width:900px), screen and (min-height:700px;) {
 
 	.maxcolum1 {
 		width: 80%;
@@ -312,4 +311,20 @@ margin-top: 25px;
 		display: none;
 	}
 }
+
+@media screen and (max-height:400px) {
+	.smalbtn {
+	font-size: 15px;
+}
+	.smalbtn1 {
+	font-size: 18px;
+	font-weight: bold;
+}
+	.smalbtn2 {
+	font-size: 20px;}
+}
+
+}
+
+
 
