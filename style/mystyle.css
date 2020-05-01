@@ -242,7 +242,7 @@ margin-top: 25px;
 
 }
 
-@media screen and (min-width:900px), screen and (min-height:700px;) {
+@media screen and (min-width:900px), and (min-height: 800px){
 
 	.maxcolum1 {
 		width: 80%;
@@ -267,7 +267,7 @@ margin-top: 25px;
 	}
 }
 
-@media screen and (min-width: 501px) and (max-width: 899px) {
+@media screen and (min-width: 501px) and (max-width: 899px){
 
 	.col-1 {width: 8.33%;}
 	.col-2 {width: 16.66%;}
@@ -296,7 +296,7 @@ margin-top: 25px;
 	}
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:500px){
 	
 	[class*="col-"] {
 		width:100%;
