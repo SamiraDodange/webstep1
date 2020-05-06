@@ -36,10 +36,11 @@ body, html{
 	display: flex;
 	flex-direction: row-reverse;
 	align-items: baseline;
+	height: 25px;
+	width: 100%;
 }
 
 .firstrow1 > div {
-	width: 100%
 	flex-wrap: wrap;
 	justify-content: center;
 	padding: 5px 11px 5px 11px;
@@ -49,15 +50,15 @@ body, html{
 	display: flex;
 	flex-direction:row;
 	margin-left: 11px;
-	margin-top: 10px;
+	margin-top: 14px;
+	height: 28px;
 }
 
 .secondrow1 > div {
-	width: 100%
 	flex-wrap: wrap;
 	justify-content: center;
 	margin-right: 36px;
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 }
 
 #rowborder {
@@ -68,7 +69,8 @@ body, html{
 	display: flex;
 	text-align: right;
 	margin-left:10px;
-	margin-top: 25px;
+	margin-top: 28px;
+	height: calc(100% - 200px);
 }
 
 .firstrow2 {
@@ -352,7 +354,7 @@ body, html{
 
 @media screen and (max-width:500px){
 	
-	[class*="col-"] {
+	.column1 {
 		width:100%;
 }
 	.column2, .column2>div {
