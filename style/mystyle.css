@@ -9,6 +9,7 @@
 body, html{
        background-color: #e6e6e6;
        width: 100%;
+       height: 100%;
        min-width:200px;
        min-height: 400px;
        cursor: default;
@@ -16,16 +17,19 @@ body, html{
 
 .maincontainer {
 	display: flex;
+	height: 100%;
 	flex-direction: row-reverse;
 	background-color: #e6e6e6;
 }
 
 .column1 {
 	width: 65%;
+	height: 100%;
 }
 
 .column2 {
 	width: 35%;
+	height: 100%;
 }
 
 .firstrow1 {
@@ -70,6 +74,7 @@ body, html{
 .firstrow2 {
 	display:flex;
 	flex-direction:row;
+	height: 15px;
 	margin-left:12px;
 	margin-top: 7px;
 	font-size: 12px;
@@ -79,6 +84,7 @@ body, html{
 .secondrow2 {
 	display:flex;
 	flex-direction:row;
+	height:35px;
 }
 
 .secondrow2 > div {
@@ -108,7 +114,7 @@ body, html{
 	align-items: center;
 	justify-content: flex-end;
 	width: 100%;
-	height: 33.2%;
+	height: calc(100% - 60% - 80px);
 	font-size: 40px;
 	padding-right: 5px;
 }
@@ -122,6 +128,7 @@ body, html{
 .thirdrow2 {
 	display: flex;
 	flex-direction: row;
+	height: 15px;
 	margin-bottom: 7px;
 	width: 100%;
 }
@@ -142,6 +149,7 @@ body, html{
 	display: flex;
 	flex-flow: row-reverse;
 	justify-content: space-between;
+	height: 25px;
 }
 
 .temrow11 {
@@ -166,6 +174,7 @@ body, html{
 	display: flex;
 	flex-flow: row;
 	justify-content: space-between;
+	height: 32px;
 }
 
 .temrow22 {
@@ -190,19 +199,24 @@ body, html{
 	color: #bfbfbf;
 }
 
+.hidden {
+	height: 60%;
+}
 
 .btn {
 	display: flex;
 	flex-direction: row-reverse;
 	background-color:#e6e6e6;
+	margin:1px;
 	width: 100%;
-	height: 9.67vh;
+	height: 16.3%;
 }
 
 .btn > div {
 	flex-wrap: wrap; 
 	width: 25%;
 	margin:1px;
+	height: 100%;
 }
 
 .btn >div:hover {
@@ -224,16 +238,21 @@ body, html{
 	font-size: 30px;
 }
 
+.hidden2 {
+	height: 59%;
+}
 .hiddenbtn {
 	display: flex;
 	flex-direction: row-reverse;
 	background-color: #e6e6e6;
+	height: 20%;
+	margin:1px;
 }
 
 .hiddenbtn > div {
 	flex-wrap: wrap; 
+	height: 100%;
 	width: 100%;
-	height: 11.35vh;
 	margin:1px;
 }
 
@@ -246,10 +265,9 @@ body, html{
 	align-content: center;
 	justify-content: center;
 	text-align: center;
-
 }
 
-@media screen and (min-width:900px) and (min-height: 50px){
+@media screen and (min-width:900px) and (min-height: 10px){
 
 	.maxcolum1 {
 		width: 80%;
